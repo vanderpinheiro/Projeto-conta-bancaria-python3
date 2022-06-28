@@ -15,10 +15,3 @@ class ContaCorrente(Conta):
             return
         self.saldo -= valor
         self.detalhes()
-
-c1= ContaCorrente(212,23213,100)
-
-c1.detalhes()
-c1.sacar(100)
-c1.sacar(100)
-c1.sacar(100)

@@ -11,8 +11,3 @@ class ContaPoupanca(Conta):
         self.saldo -= valor
         print(f'Você sacou {valor}')
         self.detalhes()
-
-
-c = ContaPoupanca(6897,87653,10)
-c.detalhes()
-c.sacar(20)
