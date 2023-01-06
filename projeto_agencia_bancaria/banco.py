@@ -1,4 +1,6 @@
-from conta import ContaCorrente,ContaPoupanca
+from conta import ContaCorrente, ContaPoupanca
+
+
 class Banco:
     def __init__(self):
         self.agencias = [1111, 2222, 3333]
